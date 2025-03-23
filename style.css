@@ -12,7 +12,7 @@ body{
     justify-content: center;
 }
 .recipe{
-    background-color: hsl(0, 0%, 100%);
+    background-color:white;
     border-radius: 20px;
     width: 40%;
     display: flex;
