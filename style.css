@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.recipe{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+
+}
+.recipe .imge{
+    position: relative;
+    width: 90%;
+    margin: 30px auto;
+}
+.recipe .imge img{
+    width: 100%;
+    border-radius: 20px;
+}
+.recipe .recipe-text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.recipe .recipe-text h3{
+    font-family: "Young Serif", serif;
+    font-size: 3em;
+    font-weight:500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.recipe .recipe-text p{
+    color: hsl(30, 10%, 34%);
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.list{
+    background-color: hsla(331, 74%, 91%, 0.375);
+    width: 90%;
+    height: 180px;
+    margin: 20px 0;
+}
+.list{
+    list-style-position: inside;
+    border-radius: 15px;
+    color: hsl(15, 3%, 26%);
+}
+.list h4{
+    position: relative;
+    top:30px;
+    left: 20px;
+    font-size: 1.3em;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.list ul{
+    position: relative;
+    top: 30px;
+    left: 30px
+}
+.list ul li{
+    margin-bottom: 10px;
+
+}
+li span{
+    font-weight:bold;
+}
+.ingredients{
+    width: 90%;
+    margin: 20px 0;
+}
+.ingredients h3{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.ingredients ul{
+    list-style-position: inside;
+    position: relative;
+    left: 10px;
+}
+.ingredients ul li{
+    margin-bottom: 10px;
+    color: hsl(15, 3%, 26%);
+
+}
+hr{
+    height: 1px;
+    width: 90%;
+    border: none;
+    background-color:hsl(0, 0%, 85%);
+    margin-bottom: 10px;
+}
+.instructions{
+    width: 90%;
+    margin: 20px 0;
+}
+.instructions h3{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.instructions table tr td{
+    padding: 10px ;
+    vertical-align: top;
+    color: hsl(15, 3%, 26%);
+
+}
+.instructions table tr .no{
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+.instructions table tr td span{
+    font-weight: bold;
+}
+.nutrition{
+    width: 90%;
+    margin: 20px 0;
+}
+.nutrition h3{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.nutrition p{
+    color: hsl(15, 3%, 26%);
+    margin-bottom: 10px;
+}
+.nutrition table{
+    width: 100%;
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+.nutrition table tr{
+    border-bottom: 1px hsl(0, 0%, 85%) solid;
+}
+.nutrition table tr .info{
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+.nutrition table tr td{
+    padding: 10px 0;
+    position: relative;
+    left: 50px;
+    color: hsl(15, 3%, 26%);
+
+}
+.nutrition table tr:last-child{
+    border-bottom: none;
+}
